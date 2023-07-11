@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS public.channels
+(
+    channel_id character varying(32) COLLATE pg_catalog."default" NOT NULL,
+    role_id character varying(32) COLLATE pg_catalog."default" NOT NULL
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.channels
+    OWNER to postgres;
