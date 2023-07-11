@@ -1,0 +1,5 @@
+{
+  "token":"Le token de votre bot",
+  "clientId":"Le client ID de votre bot",
+  "allowedRoleId":"Le role autorisé à utilisé les commandes"
+}
